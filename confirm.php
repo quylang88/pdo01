@@ -18,7 +18,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>確認画面</h1>
+
+<div class="container">
+    <header>
+       <div>
+            <h1>確認画面</h1>
+       </div>
+    </header>
+</div>
+<hr>
 <p>あなたの名前は <?php echo $name;?> さんです。</p>
 <p>メールアドレスは <?php echo $hobby;?> です。</p>
 
@@ -33,5 +41,11 @@
 	<button type="submit" class="btn btn--naby btn--shadow">登録する</button>
 </div>
 </form>
+<hr>
+<div class="container">
+    <footer>
+        <p>CCC.</p>
+    </footer>
+</div>
 </body>
 </html>
