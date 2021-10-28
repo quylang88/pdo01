@@ -5,7 +5,7 @@
   $hobby = $_SESSION['email'];
   $gender = $_SESSION['gender'];
 ?>
-/* ? */
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
